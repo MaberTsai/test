@@ -18,7 +18,9 @@ int main()
 	for (len = 0; len < 100; len++)
 	{
 		if (sentence[len] == '\0')
+		{
 			break;
+		}
 	}
 	printf("%d\n", len);
 	
